@@ -1,0 +1,260 @@
+/*Navigation CSS*/
+
+.nav {
+    display: flex;
+    background-color: white;
+  }
+
+  .logo {
+    display: inline-block;
+    background-color: white;
+    background-image: url("../pictures/Logo\ small.png");
+    border-radius: 5px;
+    height: 90px;
+    width: 110px;
+    margin: 50px;
+    margin-top: 25px;
+  }
+  
+ .right {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+.left {
+  height: 90px;
+  width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+   
+  .right a {
+    color: #00171E;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+  }
+  
+  .right button {
+    background-color: #00698A;
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    width: 171px;
+    height: 73px;
+    margin: 50px;
+    border-color:transparent;
+  }
+
+  /*Text CSS*/
+  
+  .text {
+    background: none;
+    width:fit-content;
+    color: #00698A;
+    margin-left: 50px;
+  }
+  .text p {
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .text h1 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: center;
+    font-size: 45px;
+    color: #00171E;
+
+  }
+
+  .text h2 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: left;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #00698A;
+  }
+
+  .text h3 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .text h4 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: left;
+    font-size: 20px;
+    color: #00698A;
+  }
+  
+  /* Hero Styles */
+
+  .hero {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-image: url("../pictures/hero\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  
+  /* My Work Constructed Using CSS Grid */
+  
+  #categoryGrid {
+    margin: 0px 5%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    height:2000px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "adoptoneblock title1"
+    "title2 nasa"
+    "mlord title3";  
+  }
+
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    cursor: pointer;
+    display: grid;
+    align-content: flex-start;
+  }
+
+  #adoptoneblock {
+    grid-area: adoptoneblock;
+    background-image: url("..//pictures/adoptoneblockdestopmockup.png");
+    background-size: 90%;
+    background-position: cover;    
+  }
+
+  #nasa {
+    grid-area: nasa;
+    background-image: url("../pictures/nasadesktopmockup.png");
+    background-size: 90%;
+    background-position: cover;
+  }
+
+  #mlord {
+    grid-area: mlord;
+    background-image: url("../pictures/mlordhomepagemockup.png");
+    background-size: 90%;
+    background-position: cover;
+  }
+
+  #title1 {
+    grid-area: title1;
+    background-color: none;
+    margin-top: 50px;
+    margin-left: 75px;
+    
+  }
+
+  #title2 {
+    grid-area: title2;
+    background-color: none;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  #title3 {
+    grid-area: title3;
+    background-color: none;
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+
+  .categoryGridArea button {
+    background-color: #00698A;
+    color: white;
+    font-size: 16px;
+    padding: 25px;
+    width: 171px;
+    height: 73px;
+    margin-top: 50px;
+    border-color: transparent;
+  }
+  
+  /* Heading for My Work Section */
+
+  .heading {
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 75px;
+    width: 85%; 
+  }
+
+  .heading h2 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: left;
+    font-size: 34px;
+    color: #00698A;
+  }
+
+  .heading p {
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+    text-align: left;
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  
+  /* Footer Styles */
+
+  #categoryGrid2 {
+
+    margin-top: 0px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-areas:
+    "footer footer2 footer3"  
+  }
+
+  .categoryGridArea2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    cursor: pointer;
+    display: grid;
+    align-content: flex-start;
+  }
+
+  #footer {
+    grid-area: footer;
+    background-color: #E8D5B5;
+  }
+
+  #footer2 {
+    grid-area: footer2;
+    background-color: #E8D5B5;  
+  }
+
+  #footer3 {
+    grid-area: footer3;
+    background-color: #E8D5B5;
+  }
+
+  .categoryGridArea2 a {
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+    text-align: left;
+    color: #00698A;
+    font-size: 16px;
+  }
+  
