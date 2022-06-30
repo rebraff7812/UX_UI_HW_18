@@ -94,14 +94,23 @@
     font-size: 20px;
     color: #00698A;
   }
+
+  .text li {
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 10px;
+    color:#00171E;
+  }
   
   /* Hero Styles */
 
   .hero {
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 600px;
     margin-top: 50px;
+    margin-bottom: 100px;
     padding-top: 50px;
     background-image: url("../pictures/hero\ 2.png");
     background-repeat: no-repeat;
@@ -109,7 +118,65 @@
     justify-content: center;
     align-items:flex-start;
   }
+
+  /*My UX Skills section coded using CSS flex*/
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+    margin-left: 75px;
+    margin-bottom: 100px;
+  }
+
+ 
+  .research .definition .prototyping {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .research {
+    margin-top: 20px;
+    background-color: #E8F2EF;
+    width: 20%;
+    border-style: solid;
+    border-color:#00698A;
+    
+  }
   
+  .definition {
+    margin-top: 20px;
+    background-color: #E8F2EF;
+    width: 20%;
+    margin-left: 100px;
+    border-style: solid;
+    border-color:#00698A;
+  }
+
+  .prototyping {
+    margin-top: 20px;
+    background-color: #E8F2EF;
+    width: 20%;
+    margin-left: 100px;
+    border-style: solid;
+    border-color:#00698A;
+  }
+
+  .separator {
+    width: 90%;
+    height: 100%;
+  }
+
+  .floatright {
+    float: right;
+    padding-left: 75px;
+    padding-top: 75px;
+  }
+
+
   /* My Work Constructed Using CSS Grid */
   
   #categoryGrid {
