@@ -335,4 +335,179 @@
     color: #00698A;
     font-size: 16px;
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .nav {
+      display: none;
+    }
+
+    .hero {
+      display: flex;
+      width: 100%;
+      height: 600px;
+      margin-top: 0px;
+      margin-bottom: 100px;
+      padding-top: 15px;
+      background-image: url("../pictures/hero\ 2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      justify-content: center;
+      align-items:flex-start;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px;
+      align-items: flex-start;
+    }
+
+    .research {
+      margin-top: 20px;
+      background-color: #E8F2EF;
+      width: 100%;
+      height: 400px;
+      border-style: solid;
+      border-color:#00698A;
+      margin-bottom: 20px;
+      
+    }
+    
+    .definition {
+      margin-top: 20px;
+      background-color: #E8F2EF;
+      width: 100%;
+      height: 400px;
+      margin-left: 0px;
+      border-style: solid;
+      border-color:#00698A;
+      margin-bottom: 20px;
+    }
   
+    .prototyping {
+      margin-top: 20px;
+      background-color: #E8F2EF;
+      width: 100%;
+      height: 400px;
+      margin-left: 0px;
+      border-style: solid;
+      border-color:#00698A;
+      margin-bottom: 20px;
+    }
+
+    #categoryGrid {
+      height: 2400px;
+      margin-bottom: 25px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr; 
+      grid-template-areas:
+      "title1"
+      "adoptoneblock"
+      "title2"
+      "nasa"
+      "title3"
+      "mlord";
+
+  }
+
+  #adoptoneblock {
+    grid-area: adoptoneblock;
+    background-image: url("..//pictures/adoptoneblockdestopmockup.png");
+    background-size: 100%;
+    background-position: cover;   
+    margin-top: 0px; 
+    height: 250px;
+    background-position: bottom;
+  }
+
+  #nasa {
+    grid-area: nasa;
+    background-image: url("../pictures/nasadesktopmockup.png");
+    background-size: 100%;
+    background-position: cover;   
+    margin-top: 0px; 
+    height: 250px;
+    background-position: bottom;
+
+  }
+
+  #mlord {
+    grid-area: mlord;
+    background-image: url("../pictures/mlordhomepagemockup.png");
+    background-size: 100%;
+    background-position: cover;
+    height: 250px;
+    background-position: bottom;
+  }
+
+  #title1 {
+    grid-area: title1;
+    background-color: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    
+  }
+
+  #title2 {
+    grid-area: title2;
+    background-color: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+   
+  }
+
+  #title3 {
+    grid-area: title3;
+    background-color: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  
+  }
+
+  .heading {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%; 
+  }
+
+  .text h4 {
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times;
+    text-align: left;
+    font-size: 20px;
+    color: #00698A;
+    margin-left: 0 auto;
+  }
+
+  .text li {
+    font-family:'Source Sans Pro', serif,'Times New Roman',Times;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 25px;
+    color:#00171E;
+    margin-left: 0 auto;
+  }
+
+  #categoryGrid2 {
+
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "footer"
+    "footer2"
+    "footer3";
+}
+  
+  }
